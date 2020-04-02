@@ -7,14 +7,17 @@ use Illuminate\Http\Request;
 
 class ProfilesController extends Controller
 {
-    public function index($user)
+    public function index(\App\User $user)
     {
-        $user = User::findOrFail($user);  
-
         return view('profiles.index', [
-
             'user' => $user,
-        
         ]);
+
+        
     }
+
+    public function create() {
+        return view('posts.create');
+    }
+
 }
