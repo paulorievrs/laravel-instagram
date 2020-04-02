@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    FreeCodeGram
+                    Instagram
                 </div>
 
                 <div class="links">
